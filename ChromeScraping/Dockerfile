@@ -1,4 +1,4 @@
-from debian:buster-slim
+FROM debian:buster-slim
 
 # install chrome deps, chromedriver deps, python
 RUN apt-get update
